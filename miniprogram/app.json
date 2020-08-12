@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/server/server",
+    "pages/serList/serList",
+    "pages/news/news",
+    "pages/newsList/newsList",
+    "pages/newsDetail/newsDetail"
+  ],
+  "tabBar": {
+    "color": "#b39374",
+    "selectedColor": "#784f28",
+    "backgroundColor": "#f2e9da",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/nav1.png",
+        "iconPath": "images/nav2.png",
+        "text": "秀实FO"
+      }, {
+        "pagePath": "pages/server/server",
+        "selectedIconPath": "images/nav3.png",
+        "iconPath": "images/nav4.png",
+        "text": "服务"
+      }, {
+        "pagePath": "pages/news/news",
+        "selectedIconPath": "images/nav5.png",
+        "iconPath": "images/nav6.png",
+        "text": "观察"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#745528",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#745528",
+    "navigationBarTitleText": " ",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

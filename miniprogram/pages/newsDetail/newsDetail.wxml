@@ -1,0 +1,3 @@
+<view class="ww" bindtouchstart="mytouchstart" bindtouchend="mytouchend">test 效果
+  <view wx:if="{{show}}">效果一</view>
+</view>

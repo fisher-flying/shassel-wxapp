@@ -1,0 +1,41 @@
+<view class="banner">
+  <image src="http://ai.ylcaifu.com/appimg/weChat/banner2.jpg"></image>
+</view>
+
+<view class="index p-sm">
+  <view class="tit">“1+6+2”服务模式</view>
+  <view class="txt">秀实家族办公室采用“1+6+2”服务模式，以家族宪章为核心，基于法律、税务，严格控制家族风险，兼顾一个家族发展壮大的核心要素，助家族基业长青。</view>
+  <image class="pic" src="http://ai.ylcaifu.com/appimg/weChat/img5.jpg"></image>
+
+  <view class="tit">秀实家办服务流程</view>
+  <view class="flow-list">
+    <view class="item">
+      <view class="ctn">
+        <view>理财顾问、家族信托专家与委托人充分沟通，</view>
+        <view>充分了解委托人意愿与需求</view>
+      </view>
+    </view>
+    <view wx:for="{{flowList}}" wx:key="index" class="item">
+      <image src="cloud://shassel-fo-cloud-mmgug.7368-shassel-fo-cloud-mmgug-1302759929/static/icon3.jpg"></image>
+      <view class="ctn">{{item}}</view>
+    </view>
+  </view>  
+</view>
+
+<view class="index p-sm">
+  <view class="tit">家族常见问题一览</view>
+  <rich-text nodes="{{demo}}"></rich-text>
+  <view class="qa-list">
+    <view wx:for="{{qaList}}" wx:key="index" class="{{qaIndex == item.qaID ? 'on item' : 'item'}}">
+      <view class="ques" data-id="{{item.qaID}}" bindtap="foldPan">
+        <view class="name">问：{{item.question}}</view>
+        <image src="cloud://shassel-fo-cloud-mmgug.7368-shassel-fo-cloud-mmgug-1302759929/static/icon2.jpg"></image>
+      </view>
+      <block wx:if="{{qaIndex == item.qaID}}">
+        <view class="ctn">
+          <rich-text nodes="{{item.answer}}"></rich-text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

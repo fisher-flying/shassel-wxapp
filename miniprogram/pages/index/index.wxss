@@ -1,0 +1,18 @@
+/**index.wxss**/
+.banner image{height: 450rpx;}
+.index{background: #f2e9da;margin: 20rpx;margin-bottom: 80rpx;box-shadow: 0 0 16rpx #a17c63;border-radius: 6rpx;}
+
+.part .tit{display: flex;justify-content: space-between;border:1px solid #d3bfa8;border-radius: 6px;padding: 10rpx;margin-bottom: 26rpx; }
+.part .tit .name{font-family: "宋体";color:#6d4a2c;font-size: 18px;font-weight: 900;}
+.part .tit .name2{font-family: "微软雅黑";color: #0a0204;font-size: 15px;font-weight: 500;}
+.part .tit .name text{margin-left: 8px;}
+.part .tit .name2 text{font-size: 13px;}
+.part .tit .more{color: #8f6944;font-size: 20rpx;line-height: 22px;}
+.part .txt{font-size: 24rpx;color: #231402;line-height: 46rpx;text-align: justify;padding: 0 12rpx;}
+
+.list{display: flex;justify-content: space-around;border-top: 1px solid #e5d8c6;padding: 20px 0;margin-top: 15px;font-size: 28rpx;}
+.list .item{text-align: center;}
+.list image{height: 64rpx;width: 68rpx;}
+
+.part2 .tit{margin-top: 50rpx;}
+.part2 image{height: 310rpx;}

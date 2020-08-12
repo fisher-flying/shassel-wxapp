@@ -1,0 +1,18 @@
+.banner image{height: 450rpx;}
+.index{background: #f2e9da;margin: 20rpx;box-shadow: 0 0 16rpx #a17c63;border-radius: 6rpx;}
+
+.tit{background: url("http://ai.ylcaifu.com/appimg/weChat/icon5.png") no-repeat 100% 100%;background-size: cover;font-size: 18px;font-weight: 700;color: #fff;padding: 18rpx;border-radius: 6rpx;margin-bottom: 40rpx;}
+.txt{font-size: 24rpx;color: #231402;line-height: 50rpx;padding: 10rpx;text-align: justify;}
+.pic{height: 996rpx;margin: 50rpx 0;}
+
+.flow-list{padding: 20rpx 100rpx 60rpx;text-align: center;}
+.flow-list .item .ctn{background: #b39374;border-radius: 10rpx;color: #fff;font-size: 30rpx;padding: 30rpx 50rpx;}
+.flow-list .item image{height: 40rpx;width: 44rpx;padding: 16rpx 16rpx 10rpx;}
+
+.qa-list .item{background: #87613d;color: #f2e9da;border-radius: 10rpx;padding: 20rpx;margin-bottom: 30rpx;}
+.qa-list .item:last-child{margin-bottom: 0;}
+.qa-list .item .ques{display: flex;justify-content: space-between;align-items: center;}
+.qa-list .item .name{max-width: calc(100% - 36rpx);font-size: 28rpx;}
+.qa-list .item image{width: 30rpx;height: 30rpx;transition: transform 0.5s,-webkit-transform 0.5s;}
+.qa-list .item.on image{transform: rotate(-180deg);}
+.qa-list .item .ctn{font-size: 26rpx;border-top: 1px solid #e4dbd3;padding: 28rpx 0 10rpx;margin-top: 14rpx;line-height: 44rpx;}

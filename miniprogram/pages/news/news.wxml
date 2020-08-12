@@ -1,0 +1,30 @@
+<view class="banner">
+  <image src="cloud://shassel-fo-cloud-mmgug.7368-shassel-fo-cloud-mmgug-1302759929/static/banner3.jpg"></image>
+</view>
+
+<view class="news p-sm">
+  <view class="title">
+    <view class="name">家族故事</view>
+    <view class="more" data-type="0" bindtap="goMore">更多></view>
+  </view>
+
+  <view class="list-story">
+    <view wx:for="{{4}}" wx:key="index" class="item" bindtap="goDetail" data-id="{{index}}">
+      <image src="http://ai.ylcaifu.com/appimg/weChat/img6.jpg"></image>
+      <view wx:if="{{index}}" class="tit">宝马家族的平行结构家族办公</view>
+      <view wx:else class="tit row3">方太家族：以职业经理人去淡化家族——方太集团交接过程中的理念与智慧</view>
+    </view>
+  </view>
+
+   <view class="title">
+    <view class="name">近期动态</view>
+    <view class="more" data-type="1" bindtap="goMore">更多></view>
+  </view>
+
+  <view class="list-last">
+    <view wx:for="{{4}}" wx:key="index" class="item" bindtap="goDetail" data-id="{{index}}">
+      <image src="http://ai.ylcaifu.com/appimg/weChat/img7.jpg"></image>
+      <view class="tit row1">秀实家办近期动态1</view>
+    </view>
+  </view>
+</view>

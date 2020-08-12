@@ -1,0 +1,57 @@
+<view class="banner">
+  <image src="http://ai.ylcaifu.com/appimg/weChat/banner1.jpg"></image>
+</view>
+<view class="index p-sm">
+  <view class="part">
+    <view class="tit">
+      <view class="name">秀实家办 <text>FAMILY OFFOCE</text></view>
+    </view>
+    <view class="txt">秀实家族办公室是专为超高净值人群提供法律咨询、税务筹划、投资咨询、家族治理、传承规划、家族信托、教育规划及接班人培养、品质生活等全方位、专享化、一揽子综合性财富管理及增值服务的专业机构。
+    </view>
+    <view class="list">
+      <view class="item">
+        <image src="http://ai.ylcaifu.com/appimg/weChat/icon1.jpg"></image>
+        <view>投资咨询</view>
+      </view>
+      <view class="item">
+        <image src="http://ai.ylcaifu.com/appimg/weChat/icon2.jpg"></image>
+        <view>教育规划</view>
+      </view>
+      <view class="item">
+        <image src="http://ai.ylcaifu.com/appimg/weChat/icon3.jpg"></image>
+        <view>传承有序</view>
+      </view>
+      <view class="item">
+        <image src="http://ai.ylcaifu.com/appimg/weChat/icon4.jpg"></image>
+        <view>尊享权益</view>
+      </view>
+    </view>
+  </view>
+ 
+  <view class="part part2">
+    <view class="tit">
+      <view class="name name2">秀实咨询 <text>INVESTEMNT CONSULTING</text></view>
+      <view class="more" data-id="1" bindtap="goList">更多></view>
+    </view>
+    <image src="http://ai.ylcaifu.com/appimg/weChat/img1.png"></image>
+
+    <view class="tit">
+      <view class="name name2">教育规划 <text>EDUCATION PLAN</text></view>
+      <view class="more" data-id="2" bindtap="goList">更多></view>
+    </view>
+    <image src="http://ai.ylcaifu.com/appimg/weChat/img2.png"></image>
+
+    <view class="tit">
+      <view class="name name2">传承有序 <text>SUCCESSION PLAN</text></view>
+      <view class="more" data-id="3" bindtap="goList">更多></view>
+    </view>
+    <image src="http://ai.ylcaifu.com/appimg/weChat/img3.png"></image>
+
+    <view class="tit">
+      <view class="name name2">尊享权益 <text>ENJOY EQUITY</text></view>
+      <view class="more" data-id="4" bindtap="goList">更多></view>
+    </view>
+    <image src="http://ai.ylcaifu.com/appimg/weChat/img4.png"></image>
+ </view>
+
+</view>
